@@ -224,9 +224,30 @@
     <Compile Include="Migrations\201909271449154_UpdateMembershipTypes.Designer.cs">
       <DependentUpon>201909271449154_UpdateMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910041329289_AddedBirthDate.cs" />
+    <Compile Include="Migrations\201910041329289_AddedBirthDate.Designer.cs">
+      <DependentUpon>201910041329289_AddedBirthDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041348147_AddedMovies.cs" />
+    <Compile Include="Migrations\201910041348147_AddedMovies.Designer.cs">
+      <DependentUpon>201910041348147_AddedMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041351201_addedGenre.cs" />
+    <Compile Include="Migrations\201910041351201_addedGenre.Designer.cs">
+      <DependentUpon>201910041351201_addedGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041352443_PopulateGenres.cs" />
+    <Compile Include="Migrations\201910041352443_PopulateGenres.Designer.cs">
+      <DependentUpon>201910041352443_PopulateGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910041420552_AddedMovieStock.cs" />
+    <Compile Include="Migrations\201910041420552_AddedMovieStock.Designer.cs">
+      <DependentUpon>201910041420552_AddedMovieStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -302,6 +323,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -338,6 +360,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201909271449154_UpdateMembershipTypes.resx">
       <DependentUpon>201909271449154_UpdateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041329289_AddedBirthDate.resx">
+      <DependentUpon>201910041329289_AddedBirthDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041348147_AddedMovies.resx">
+      <DependentUpon>201910041348147_AddedMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041351201_addedGenre.resx">
+      <DependentUpon>201910041351201_addedGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041352443_PopulateGenres.resx">
+      <DependentUpon>201910041352443_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910041420552_AddedMovieStock.resx">
+      <DependentUpon>201910041420552_AddedMovieStock.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
