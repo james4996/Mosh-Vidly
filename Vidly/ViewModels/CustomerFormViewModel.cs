@@ -8,6 +8,11 @@ namespace Vidly.ViewModels
 {
     public class CustomerFormViewModel
     {
+        public CustomerFormViewModel()
+        {
+            Customer = new Customer();
+        }
+
         public IEnumerable<MembershipType> MembershipTypes { get; set; }
         public Customer Customer { get; set; }
     }
